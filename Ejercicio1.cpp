@@ -14,15 +14,17 @@ int main(){
     getline(cin,mensaje);
 
     cout << "Ingresar el nro de filas : " ;
-    cin >> Nfil  ;
+    cin >> Nfil  ; // ingresa fila 
+    cout << "Ingresar el nro de columnas : " ;
+    cin >> Ncol  ; //ingrresa columna
 
-    tam=mensaje.length();
-    Ncol = tam / Nfil;
-
+    tam=mensaje.length(); //tamaño del string
+    
+    //cuando la diviion no sea exactadebe suma al nro de columa +1
     if(tam % Nfil > 0){
         Ncol++;
     }
-    char matriz[Nfil][Ncol];
+    char matriz[Nfil][Ncol]; //creando matriz
 
     relleno= Ncol*Nfil -tam;
     
@@ -31,8 +33,8 @@ int main(){
     /*for(int =0 ; i < relleno ; i++){ 
         mensaje+="x" ;
     }*/
-    for(int fil=0 ;fil <Nfil ; fil++){
-        for(int col =0 ;col<Ncol; col++){
+    for(int fil=0 ;fil <Nfil ; fil++){ // for para mover para las filas
+        for(int col =0 ;col<Ncol; col++){ // para las columnas
             matriz[fil][col]= mensaje[k];
             k++;
             cout << matriz[fil][col] << " " ;
