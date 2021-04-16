@@ -1,32 +1,70 @@
 #include <iostream>
 #include <string>
-#include <cstdlib>
-#include <cctype>
+
 using namespace std;
 
-int main(){
-    string respuesta;
-    int w=0;
-    const int palabra = 4;
+string palabra_original;
+string palabra_mostrar;
+int vidas;
 
-    do{
-        const char body[]="o/|\\|/\\";
-        string palabras[palabra] = {"BOLIVIA","JAPON","VENEZUELA","CANADA"};
-        string xword(palabras[w].length(), 'X');
-        string::iterator i, ix =xword.begin(); //ejecuta desde el comienzo
+void mostrar();
+void ingresar(char x);
+void iniciar();
 
-        char letras[26]={'\0'};
-
-        //declarano variables
-
-        int n=0;
-        int xcount=xword.length();
-        bool found=false;
-        bool solved = false ;
-        int offset = 0 ;
-        int bodycount=0 ;
-        bool hung =false;
-
-        
+int main()
+{   
+    cout << "Adivine la palabra : " << endl ;
+   iniciar();
+   mostrar();
+   while(vidas>0 && palabra_mostrar!=palabra_original){
+        char x;
+        cin>>x;
+        ingresar(x);
+        mostrar();
+    }
+    if(vidas>0){
+        cout << "Felicidades!! Adivino mi palabra."  << endl;
+    }
+    else {
+        cout << "perdio la palabra era: "<<palabra_original<< endl;
     }
 }
+
+ void mostrar(){
+    cout<<"vidas: "<<vidas<<endl;
+    cout<<palabra_mostrar<<endl;
+}
+
+void iniciar(){
+    vidas= 5;
+    palabra_original="algoritmo";
+
+    for(int i=0 ; i<palabra_original.length() ; i++){
+        if(palabra_original[i]>='A' && palabra_original[i]<='Z'){
+            palabra_original[i]+=32;
+        }
+    }
+    for(int i=0 ; i<palabra_original.length();i++){
+      if(palabra_original[i]>='a' && palabra_original[i]<='z'){
+        palabra_mostrar+='X';
+      }else{
+        palabra_mostrar +=palabra_original[i];
+      }
+    }
+}
+
+void ingresar(char x){
+ bool perdiVidas=true;
+
+    for(int i=0 ; i<palabra_original.length() ; i++){
+        if (x == palabra_original[i]){
+            perdiVidas=false;
+            palabra_mostrar[i]=x;
+        }
+    }
+    if (perdiVidas) {
+            vidas = vidas - 1;
+
+    }
+}
+
