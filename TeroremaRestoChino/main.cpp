@@ -1,9 +1,5 @@
 #include <NTL/ZZ.h>
 #include <iostream>
-#include <vector>
-#include <cstdlib>
-#include <conio.h>
-#include <cmath>
 using namespace std;
 using namespace NTL;
 
