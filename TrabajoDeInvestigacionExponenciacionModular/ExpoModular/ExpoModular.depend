@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1623421347 source:d:\rsa\expomodular\main.cpp
+	<iostream>
+	<NTL/ZZ.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1623423466 source:d:\rsa\fermet\teoremafermet\main.cpp
+	<NTL/ZZ.h>
+	<cstring>
+	<iostream>
+	<cstdlib>
+
