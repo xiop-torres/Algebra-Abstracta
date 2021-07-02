@@ -1,0 +1,189 @@
+# depslib dependency file v1.0
+1559413911 source:d:\c++\tercer semestre\abstracta\rsa en grupo\main.cpp
+	<iostream>
+	<NTL/ZZ.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<math.h>
+	"RSA.h"
+
+1559412898 d:\c++\tercer semestre\abstracta\rsa en grupo\include\rsa.h
+	<stdlib.h>
+	<time.h>
+	<iostream>
+	<string>
+	<math.h>
+	<NTL/ZZ.h>
+
+1559413911 source:d:\c++\tercer semestre\abstracta\rsa en grupo\src\rsa.cpp
+	"RSA.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+	<string>
+	<math.h>
+	<sstream>
+	<NTL/ZZ.h>
+
+1559837299 source:c:\users\gamer\desktop\rsa en grupo\main.cpp
+	<iostream>
+	"RSA.h"
+
+1559837131 c:\users\gamer\desktop\rsa en grupo\include\rsa.h
+	"op.h"
+	<iostream>
+	<string>
+	<NTL/ZZ.h>
+	<stdlib.h>
+	<sstream>
+
+1559837138 source:c:\users\gamer\desktop\rsa en grupo\src\rsa.cpp
+	"RSA.h"
+
+1559837539 source:c:\users\gamer\desktop\rsa en grupo\src\op.cpp
+	"op.h"
+
+1559837160 c:\users\gamer\desktop\rsa en grupo\include\op.h
+	"RSA.h"
+	<NTL/ZZ.h>
+	<iostream>
+	<string>
+
+1559943965 source:c:\users\gamer\desktop\rsa en grupo(con la libreria op)\src\op.cpp
+	"op.h"
+	"RSA.h"
+
+1559942115 c:\users\gamer\desktop\rsa en grupo(con la libreria op)\include\op.h
+	"RSA.h"
+	<NTL/ZZ.h>
+	<iostream>
+	<string>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<mutex>
+	<thread>
+	<chrono>
+	<vector>
+
+1559949572 c:\users\gamer\desktop\rsa en grupo(con la libreria op)\include\rsa.h
+	"op.h"
+	<iostream>
+	<string>
+	<NTL/ZZ.h>
+	<stdlib.h>
+	<sstream>
+	<vector>
+
+1559949902 source:c:\users\gamer\desktop\rsa en grupo(con la libreria op)\src\rsa.cpp
+	"RSA.h"
+
+1559949444 source:c:\users\gamer\desktop\rsa en grupo(con la libreria op)\main.cpp
+	<iostream>
+	"RSA.h"
+	"op.h"
+	<NTL/ZZ.h>
+
+1559943965 source:c:\users\gamer\desktop\rsa en grupo(con aleatorios )\src\op.cpp
+	"op.h"
+	"RSA.h"
+
+1559942115 c:\users\gamer\desktop\rsa en grupo(con aleatorios )\include\op.h
+	"RSA.h"
+	<NTL/ZZ.h>
+	<iostream>
+	<string>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<mutex>
+	<thread>
+	<chrono>
+	<vector>
+
+1559963215 c:\users\gamer\desktop\rsa en grupo(con aleatorios )\include\rsa.h
+	"op.h"
+	<iostream>
+	<string>
+	<NTL/ZZ.h>
+	<stdlib.h>
+	<sstream>
+	<vector>
+
+1559956130 source:c:\users\gamer\desktop\rsa en grupo(con aleatorios )\main.cpp
+	<iostream>
+	"RSA.h"
+	"op.h"
+	<NTL/ZZ.h>
+
+1625183148 source:c:\users\usuario\onedrive\escritorio\rsa\rsa en grupo(con aleatorios )\main.cpp
+	<iostream>
+	"RSA.h"
+	"op.h"
+	<NTL/ZZ.h>
+
+1591064848 c:\users\usuario\onedrive\escritorio\rsa\rsa en grupo(con aleatorios )\include\rsa.h
+	"op.h"
+	<iostream>
+	<string>
+	<NTL/ZZ.h>
+	<stdlib.h>
+	<sstream>
+	<vector>
+
+1591064848 c:\users\usuario\onedrive\escritorio\rsa\rsa en grupo(con aleatorios )\include\op.h
+	"RSA.h"
+	<NTL/ZZ.h>
+	<iostream>
+	<string>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<mutex>
+	<thread>
+	<chrono>
+	<vector>
+
+1591064848 source:c:\users\usuario\onedrive\escritorio\rsa\rsa en grupo(con aleatorios )\src\op.cpp
+	"op.h"
+	"RSA.h"
+
+1625183063 source:c:\users\usuario\onedrive\escritorio\rsa\rsa en grupo(con aleatorios )\src\rsa.cpp
+	"RSA.h"
+
+1625240555 source:c:\users\usuario\onedrive\escritorio\rsa\rsa-bloq\main.cpp
+	<iostream>
+	"RSA.h"
+	"op.h"
+	<NTL/ZZ.h>
+
+1625240349 c:\users\usuario\onedrive\escritorio\rsa\rsa-bloq\include\rsa.h
+	"op.h"
+	<NTL/ZZ.h>
+	<stdlib.h>
+	<sstream>
+	<iostream>
+	<string>
+	<vector>
+
+1625240484 c:\users\usuario\onedrive\escritorio\rsa\rsa-bloq\include\op.h
+	"RSA.h"
+	<NTL/ZZ.h>
+	<iostream>
+	<string>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<mutex>
+	<thread>
+	<chrono>
+	<vector>
+
+1625240450 source:c:\users\usuario\onedrive\escritorio\rsa\rsa-bloq\src\rsa.cpp
+	"RSA.h"
+
+1625240451 source:c:\users\usuario\onedrive\escritorio\rsa\rsa-bloq\src\op.cpp
+	"op.h"
+	"RSA.h"
+
