@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1625150816 source:d:\rsa\xiomararsa\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<vector>
+	<string>
+	<NTL/ZZ.h>
+	"RSA.h"
+
+1625190636 d:\rsa\xiomararsa\include\rsa.h
+	<vector>
+	<sstream>
+	<string>
+	<NTL/ZZ.h>
+
+1625174228 source:d:\rsa\xiomararsa\src\rsa.cpp
+	"RSA.h"
+	<NTL/ZZ.h>
+
